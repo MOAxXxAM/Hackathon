@@ -134,7 +134,7 @@ justify-content: space-evenly;
 .card{
     height: 400px;
     width: 260px;
-    border: 1px solid;
+   
 
 }
 
@@ -154,6 +154,16 @@ justify-content: space-evenly;
     align-items: center;
     justify-content: center;
 }
+.description{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-evenly;
+}
+
+
+
+
 
 
 
