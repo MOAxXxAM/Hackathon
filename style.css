@@ -1,0 +1,275 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+
+    padding: 0px;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav{
+    display: flex;
+   
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    
+}
+
+.logo{
+    font-size: 30px;
+    color: red;
+}
+
+ul{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+li{
+
+    display: inline-block;
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+li i{
+    color: #f2295b;
+}
+.hamburger{
+    display: none;
+}
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.hero-left{
+    width: 500px;
+    height: 500px;
+    padding: 40px   ;
+    display: flex   ;
+    flex-direction: column;
+color: #415161;
+justify-content: space-evenly;
+
+}
+
+.hero-right img {
+    width: 500px;
+    height: 500px;
+}
+
+
+.hero-left h1{
+    font-size: 3.5em;
+    font-weight: 800;
+    
+}
+
+.hero-left h2{
+    font-size: 0.9em;
+    color: rgba(65, 81, 97,0.75);
+   
+
+    
+}
+.hero-left button{
+    width: 166px;
+    height: 44px;
+    color: #415161;
+    background-color: white;
+    border: 3px solid #415161;
+    border-left: none;
+   text-align: left;
+}
+.spacer{
+    height: 20px;
+    width: auto;
+}
+.featured-products h1{
+    color: #415161;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.shirts-mugs a{
+    color: #415161;
+    margin-inline: 10px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-around;
+   
+    
+    
+}
+.card{
+    height: 400px;
+    width: 260px;
+    border: 1px solid;
+
+}
+
+.card
+
+
+
+
+
+
+
+
+@media (max-width:1000px){
+    .hamburger{
+        display: inline-block;
+        font-size: 34px;
+        width: 38px;
+        height: 38px;
+        background-color: #f2295b;
+        text-align: center;
+        color: white;
+
+    }
+
+    ul{
+        display: none;
+    }
+
+    .hero-right img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .hero-left{
+        width: 300px;
+        height: 300px;
+        padding: 40px   ;
+        display: flex   ;
+        flex-direction: column;
+    color: #415161;
+    justify-content: space-evenly;
+    
+    }
+
+    .hero-left h1{
+        font-size: 2em;
+        font-weight: 800;
+        
+    }
+    
+    .hero-left h2{
+        font-size: 0.6em;
+        color: rgba(65, 81, 97,0.75);
+       
+    
+        
+    }
+    .hero-left button{
+        width: 166px;
+        height: 44px;
+        color: #415161;
+        background-color: white;
+        border: 3px solid #415161;
+        border-left: none;
+       text-align: left;
+    }
+
+  
+}
+
+@media (max-width:600px){
+
+
+    .hamburger{
+        display: inline-block;
+        font-size: 34px;
+        width: 38px;
+        height: 38px;
+        background-color: #f2295b;
+        text-align: center;
+        color: white;
+
+    }
+
+    ul{
+        display: none;
+    }
+
+    .hero-right img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .hero-left{
+        width: 300px;
+        height: 300px;
+        padding: 40px   ;
+        display: flex   ;
+        flex-direction: column;
+    color: #415161;
+    justify-content: space-evenly;
+    
+    }
+
+    .hero-left h1{
+        font-size: 1.5em;
+        font-weight: 600;
+        text-align: center;
+        
+    }
+    
+    .hero-left h2{
+        font-size: 0.6em;
+        color: rgba(65, 81, 97,0.75);
+        text-align: center  ;
+       
+    
+        
+    }
+    .hero-left button{
+        width: 166px;
+        height: 44px;
+        color: #415161;
+        background-color: white;
+        border: 3px solid #415161;
+        border-left: none;
+       text-align: left;
+       margin: 0px auto;
+    }
+
+    .hero-container{
+        flex-direction: column;
+       
+    }
+
+
+
+
+}
