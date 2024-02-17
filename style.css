@@ -161,6 +161,12 @@ justify-content: space-evenly;
     justify-content: space-evenly;
 }
 
+footer{
+    height: 50px;
+    background-color: #d3d7db;
+    display: flex;
+    justify-content: center;
+}
 
 
 
