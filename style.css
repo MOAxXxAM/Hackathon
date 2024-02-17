@@ -126,6 +126,7 @@ justify-content: space-evenly;
     flex-direction: row;
     width: 90%;
     justify-content: space-around;
+    margin: 0px auto;
    
     
     
@@ -137,7 +138,22 @@ justify-content: space-evenly;
 
 }
 
-.card
+.card img{
+    width: 250px;
+    height: 250px;
+}
+
+.description h4{
+    text-align: center;
+}
+.description h3 {
+    text-align: center;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
