@@ -166,6 +166,7 @@ footer{
     background-color: #d3d7db;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 
