@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0px;
     font-family: sans-serif;
 
     padding: 0px;
 }
 
-header{
+header {
     background-color: rgb(255, 255, 255);
     height: 100px;
     display: flex;
@@ -14,22 +14,22 @@ header{
 
 }
 
-nav{
+nav {
     display: flex;
-   
+
     justify-content: center;
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    
+
 }
 
-.logo{
+.logo {
     font-size: 30px;
     color: red;
 }
 
-ul{
+.nav-ul {
     width: 60%;
     display: flex;
     justify-content: center;
@@ -39,26 +39,27 @@ ul{
 }
 
 
-li{
+.nav-ul li {
 
     display: inline-block;
     list-style: none;
-    
+
 }
 
-a{
+a {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
 
-li i{
+li i {
     color: #f2295b;
 }
-.hamburger{
+
+.hamburger {
     display: none;
 }
 
-.hero-container{
+.hero-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,14 +67,14 @@ li i{
 
 }
 
-.hero-left{
+.hero-left {
     width: 500px;
     height: 500px;
-    padding: 40px   ;
-    display: flex   ;
+    padding: 40px;
+    display: flex;
     flex-direction: column;
-color: #415161;
-justify-content: space-evenly;
+    color: #415161;
+    justify-content: space-evenly;
 
 }
 
@@ -83,90 +84,133 @@ justify-content: space-evenly;
 }
 
 
-.hero-left h1{
+.hero-left h1 {
     font-size: 3.5em;
     font-weight: 800;
-    
+
 }
 
-.hero-left h2{
+.hero-left h2 {
     font-size: 0.9em;
-    color: rgba(65, 81, 97,0.75);
-   
+    color: rgba(65, 81, 97, 0.75);
 
-    
+
+
 }
-.hero-left button{
+
+.hero-left button {
     width: 166px;
     height: 44px;
     color: #415161;
     background-color: white;
     border: 3px solid #415161;
     border-left: none;
-   text-align: left;
+    text-align: left;
 }
-.spacer{
+
+.spacer {
     height: 20px;
     width: auto;
 }
-.featured-products h1{
+
+.featured-products h1 {
     color: #415161;
     font-size: 25px;
     font-weight: 800;
     text-align: center;
 }
 
-.shirts-mugs a{
+.shirts-mugs a {
     color: #415161;
     margin-inline: 10px;
 }
 
-.cards{
+.cards {
     display: flex;
     flex-direction: row;
     width: 90%;
     justify-content: space-around;
     margin: 0px auto;
-    flex-wrap:wrap;
-   
-    
-    
+    flex-wrap: wrap;
+
+
+
+
 }
-.card{
+
+.card {
     height: 400px;
     width: 260px;
-   
+
 
 }
 
-.card img{
+.card img {
     width: 250px;
     height: 250px;
 }
 
-.description h4{
+.description h4 {
     text-align: center;
 }
+
 .description h3 {
     text-align: center;
 }
-.rating{
+
+.rating {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.description{
+
+.description {
     display: flex;
     flex-direction: column;
     height: 150px;
     justify-content: space-evenly;
 }
 
-footer{
-    height: 50px;
-    background-color: #d3d7db;
+.social-links {
+    height: 150px;
+    background-color: #445061;
+    color: white;
+
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.links a {
+    font-size: 20px;
+    font-weight: 900px;
+    line-height: 2;
+    color: white;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.links li {
+    list-style: none;
+}
+
+.social-media i {
+    background-color: white;
+    color: #445061;
+    padding: 15px;
+    font-size: 22px;
+}
+
+.copyrights {
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -180,8 +224,10 @@ footer{
 
 
 
-@media (max-width:1000px){
-    .hamburger{
+
+
+@media (max-width:1000px) {
+    .hamburger {
         display: inline-block;
         font-size: 34px;
         width: 38px;
@@ -192,7 +238,7 @@ footer{
 
     }
 
-    ul{
+    .nav-ul {
         display: none;
     }
 
@@ -201,47 +247,59 @@ footer{
         height: 300px;
     }
 
-    .hero-left{
+    .hero-left {
         width: 300px;
         height: 300px;
-        padding: 40px   ;
-        display: flex   ;
+        padding: 40px;
+        display: flex;
         flex-direction: column;
-    color: #415161;
-    justify-content: space-evenly;
-    
+        color: #415161;
+        justify-content: space-evenly;
+
     }
 
-    .hero-left h1{
+    .hero-left h1 {
         font-size: 2em;
         font-weight: 800;
-        
+
     }
-    
-    .hero-left h2{
+
+    .hero-left h2 {
         font-size: 0.6em;
-        color: rgba(65, 81, 97,0.75);
-       
-    
-        
+        color: rgba(65, 81, 97, 0.75);
     }
-    .hero-left button{
+
+
+    .hero-left button {
         width: 166px;
         height: 44px;
         color: #415161;
         background-color: white;
         border: 3px solid #415161;
         border-left: none;
-       text-align: left;
+        text-align: left;
     }
 
-  
+    .social-links {
+        height: 300px;
+        padding: 40px 0px;
+        flex-direction: column;
+    }
+
+    .links {
+        text-align: center;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+
+
 }
 
-@media (max-width:600px){
+@media (max-width:600px) {
 
 
-    .hamburger{
+    .hamburger {
         display: inline-block;
         font-size: 34px;
         width: 38px;
@@ -252,7 +310,7 @@ footer{
 
     }
 
-    ul{
+    ul {
         display: none;
     }
 
@@ -261,46 +319,75 @@ footer{
         height: 300px;
     }
 
-    .hero-left{
+    .hero-left {
         width: 300px;
         height: 300px;
-        padding: 40px   ;
-        display: flex   ;
+        padding: 0px;
+
+        display: flex;
         flex-direction: column;
-    color: #415161;
-    justify-content: space-evenly;
-    
+        color: #415161;
+        justify-content: space-evenly;
+
     }
 
-    .hero-left h1{
+    .hero-left h1 {
         font-size: 2.2em;
         font-weight: 600;
         text-align: center;
-        
+
     }
-    
-    .hero-left h2{
+
+    .hero-left h2 {
         font-size: 0.8em;
-        color: rgba(65, 81, 97,0.75);
-        text-align: center  ;
-       
-    
-        
+        color: rgba(65, 81, 97, 0.75);
+        text-align: center;
+
+
+
     }
-    .hero-left button{
+
+    .hero-left button {
         width: 166px;
         height: 44px;
         color: #415161;
         background-color: white;
         border: 3px solid #415161;
         border-left: none;
-       text-align: left;
-       margin: 0px auto;
+        text-align: left;
+        margin: 0px auto;
     }
 
-    .hero-container{
+    .hero-container {
         flex-direction: column;
-       
+
+    }
+
+    .image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+
+        width: 100%;
+
+    }
+
+    .card img {
+        width: 90%;
+        height: 250px;
+    }
+
+    .social-links {
+        height: 400px;
+        
+    }
+
+    .links {
+        text-align: center;
+        flex-direction: column;
+        
     }
 
 
