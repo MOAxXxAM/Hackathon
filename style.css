@@ -127,6 +127,7 @@ justify-content: space-evenly;
     width: 90%;
     justify-content: space-around;
     margin: 0px auto;
+    
    
     
     
@@ -134,7 +135,7 @@ justify-content: space-evenly;
 .card{
     height: 400px;
     width: 260px;
-   
+   flex-wrap:wrap;
 
 }
 
@@ -272,14 +273,14 @@ footer{
     }
 
     .hero-left h1{
-        font-size: 1.5em;
+        font-size: 2.2em;
         font-weight: 600;
         text-align: center;
         
     }
     
     .hero-left h2{
-        font-size: 0.6em;
+        font-size: 0.8em;
         color: rgba(65, 81, 97,0.75);
         text-align: center  ;
        
